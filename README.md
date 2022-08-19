@@ -38,8 +38,8 @@
 1. **Una longitud entre 1 y 8 caracteres**
 2. **Las letras tienen que estar en mayuscula**
 3. **No debe contener ninguna acentuación o caracter especial**
-4. **La palabra contiene espacios**
-5. **La palabra ya se encuentra previamente disponible**
+4. **La palabra no debe contener espacios**
+5. **La palabra no debe estar previamente guardada**
 </span>
 
 <br><br>
