@@ -1,0 +1,108 @@
+/* Etiquetas usadas en todos los html */
+body{
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    background: #F3F5FC;
+}
+
+.imagen-logo-a{
+    position: absolute;
+    margin: 40px 1325px 936px 84px;
+    
+}
+
+.Menu-inicialb{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    position: absolute;
+    width: 280px;
+    height: 67px;
+    left: 579px;
+    top: 654px;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    background: #022295;
+    cursor:pointer;
+}
+
+#Menu-inicialt{
+    width: 209px;
+    height: 66px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    align-items: center;
+    text-align: center;
+    color: #d0e914;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+#lista-palabras{
+    position: absolute;
+    width: 1080px;
+    height: 67px;
+    left: 179px;
+    top: 154px;
+    text-align: center;
+    color: black;
+}
+
+@media screen and (max-width:770px) and (min-width: 375px){
+    .Menu-inicialb{
+        position: absolute;
+        width: 150px;
+        height: 67px;
+        left: 379px;
+        top: 654px;
+    }
+    #Menu-inicialt{
+        width: 109px;
+        font-size: 16px;
+    }
+    #lista-palabras{
+        position: absolute;
+        width: 340px;
+        height: 67px;
+        left: 279px;
+        top: 154px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:376px){
+    header{
+        position: absolute;
+        width: 375px;
+        height: 96px;
+        left: 0px;
+        top: 0px;
+    }
+    .Menu-inicialb{
+        position: absolute;
+        width: 150px;
+        height: 67px;
+        left: 279px;
+        top: 654px;
+    }
+    #Menu-inicialt{
+        width: 109px;
+        font-size: 16px;
+    }
+    #lista-palabras{
+        position: absolute;
+        width: 340px;
+        height: 67px;
+        left: 179px;
+        top: 154px;
+        text-align: center;
+    }
+}

@@ -1,0 +1,391 @@
+/* Etiquetas usadas en todos los html */
+body{
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    background: #F3F5FC;
+}
+
+.imagen-logo-a{
+    position: absolute;
+    margin: 40px 1325px 936px 84px;
+    
+}
+
+#ahorcado-pierna-derecha{
+    display: none;
+    position: absolute;
+    width: 4.5px;
+    height: 72px;
+    left: 844.69px;
+    top: 387.62px;
+    background: #0A3871;
+    border-radius: 8px;
+    transform: matrix(-0.87, 0.5, 0.5, 0.87, 0, 0);
+}
+
+#ahorcado-pierna-izquierda{
+    display: none;
+    position: absolute;
+    width: 4.5px;
+    height: 72px;
+    left: 809.92px;
+    top: 387.62px;
+    background: #0A3871;
+    border-radius: 8px;
+    transform: rotate(30deg);
+}
+
+#ahorcado-cuerpo{
+    display: none;
+    position: absolute;
+    width: 4.5px;
+    height: 138px;
+    left: 826.92px;
+    top: 256px;
+    background: #0A3871;
+}
+
+#ahorcado-brazo-izquierdo{
+    display: none;
+    position: absolute;
+    width: 4.5px;
+    height: 72px;
+    left: 809.92px;
+    top: 254.88px;
+    background: #0A3871;
+    border-radius: 8px;
+    transform: rotate(30deg);
+}
+
+#ahorcado-brazo-derecho{
+    display: none;
+    position: absolute;
+    width: 4.5px;
+    height: 72px;
+    left: 844.69px;
+    top: 254.88px;
+    background: #0A3871;
+    border-radius: 8px;
+    transform: matrix(-0.87, 0.5, 0.5, 0.87, 0, 0);
+}
+
+#plataforma-base{
+    display: none;
+    position: absolute;
+    width: 294px;
+    height: 5px;
+    left: 573px;
+    top: 503px;
+    background: #0A3871;
+    border-radius: 8px;
+}
+
+#plataforma-vertical{
+    display: none;
+    position: absolute;
+    width: 4.5px;
+    height: 360px;
+    left: 653.67px;
+    top: 148px;
+    background: #0A3871;
+    border-radius: 8px;
+}
+
+#plataforma-superior{
+    display: none;
+    position: absolute;
+    width: 177.75px;
+    height: 4.5px;
+    left: 653.67px;
+    top: 148px;
+    background: #0A3871;
+    border-radius: 8px;
+}
+
+#plataforma-soga{
+    display: none;
+    position: absolute;
+    width: 4.5px;
+    height: 49.5px;
+    left: 826.92px;
+    top: 148px;
+    background: #0A3871;
+    border-radius: 8px;
+}
+
+#ahorcado-cabeza{
+    display: none;
+    position: absolute;
+    width: 63px;
+    height: 63px;
+    left: 797.67px;
+    top: 193px;
+    background: #0A3871;
+    shape-outside: circle();
+    clip-path: circle();
+}
+
+#primer-espacio{
+    display: none;
+    position: absolute;
+    width: 80px;
+    height: 4px;
+    background: #0A3871;
+    border-radius: 8px;
+}
+
+#segundo-espacio{
+    display: none;
+    position: absolute;
+    width: 80px;
+    height: 4px;
+    background: #0A3871;
+    border-radius: 8px;
+    margin-left: 90px;
+}
+
+#tercer-espacio{
+    display: none;
+    position: absolute;
+    width: 80px;
+    height: 4px;
+    background: #0A3871;
+    border-radius: 8px;
+    margin-left: 180px;
+}
+
+#cuarto-espacio{
+    display: none;
+    position: absolute;
+    width: 80px;
+    height: 4px;
+    background: #0A3871;
+    border-radius: 8px;
+    margin-left: 270px;
+}
+
+#quinto-espacio{
+    display: none;
+    position: absolute;
+    width: 80px;
+    height: 4px;
+    background: #0A3871;
+    border-radius: 8px;
+    margin-left: 360px;
+}
+
+#sexto-espacio{
+    display: none;
+    position: absolute;
+    width: 80px;
+    height: 4px;
+    background: #0A3871;
+    border-radius: 8px;
+    margin-left: 450px;
+}
+
+#septimo-espacio{
+    display: none;
+    position: absolute;
+    width: 80px;
+    height: 4px;
+    background: #0A3871;
+    border-radius: 8px;
+    margin-left: 540px;
+}
+
+#octavo-espacio{
+    display: none;
+    position: absolute;
+    width: 80px;
+    height: 4px;
+    background: #0A3871;
+    border-radius: 8px;
+    margin-left: 630px;
+}
+
+#primera-letra{
+    display: none;
+    font-weight: 400;
+    font-size: 48px;
+    text-align: center;
+    color: #0A3871;
+    position: absolute;
+    left: 25px;
+}
+
+#segunda-letra{
+    display: none;
+    font-weight: 400;
+    font-size: 48px;
+    text-align: center;
+    color: #0A3871;
+    margin-left: 55px;
+    position: absolute;
+    left: 55px;
+}
+
+#tercera-letra{
+    display: none;
+    font-weight: 400;
+    font-size: 48px;
+    text-align: center;
+    color: #0A3871;
+    position: absolute;
+    left: 200px;
+}
+
+#cuarta-letra{
+    display: none;
+    font-weight: 400;
+    font-size: 48px;
+    text-align: center;
+    color: #0A3871;
+    position: absolute;
+    left: 290px;
+}
+
+#quinta-letra{
+    display: none;
+    font-weight: 400;
+    font-size: 48px;
+    text-align: center;
+    color: #0A3871;
+    position: absolute;
+    left: 380px;
+}
+
+#sexta-letra{
+    display: none;
+    font-weight: 400;
+    font-size: 48px;
+    text-align: center;
+    color: #0A3871;
+    position: absolute;
+    left: 470px;
+}
+
+#septima-letra{
+    display: none;
+    font-weight: 400;
+    font-size: 48px;
+    text-align: center;
+    color: #0A3871;
+    position: absolute;
+    left: 560px;
+}
+
+#octava-letra{
+    display: none;
+    font-weight: 400;
+    font-size: 48px;
+    text-align: center;
+    color: #0A3871;
+    position: absolute;
+    left: 650px;
+}
+
+.Nuevo-juegob{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    width: 332px;
+    height: 67px;
+    background: #0A3871;
+    border-radius: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    cursor:pointer;
+}
+
+#Nuevo-juegot{
+    width: 284px;
+    height: 19px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.Desistirb{
+    box-sizing: border-box;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    width: 332px;
+    height: 67px;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+    cursor:pointer;
+    margin-left: 25px;
+}
+
+#Desistirt{
+    width: 284px;
+    height: 19px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #0A3871;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.Botones{
+    position: absolute;
+    margin-top: 800px;
+    margin-left: 350px;
+    display: flex;
+}
+
+.letras-usadas{
+    display: flex;
+    position: absolute;
+    margin-left: 580px;
+    margin-top: 700px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Inter';
+    font-style: normal;
+    color: #495057;
+}
+
+.espacios{
+    position: absolute;
+    display: flex;
+    margin-left: 350px;
+    margin-top: 640px;
+}
+
+.letras-correctas{
+    display: flex;
+    position: absolute;
+    margin-left: 350px;
+    margin-top: 590px;
+}
+
+@media screen and (max-width:770px) and (min-width: 375px){
+
+}
+
+@media screen and (max-width:376px){
+
+}

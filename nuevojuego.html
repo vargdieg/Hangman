@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=yes">
+        <title>Ahorcado pag principal</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="nuevojuego/stylenuevojuego.css">
+        <script src="nuevojuego/nuevojuego.js"></script>
+    </head>
+    <body>
+        <header>
+            <img class="imagen-logo-a" src = "imagenes/a.svg" alt="My Happy SVG"/>
+        </header>
+        <main>
+            <div class="ahorcado">
+                <p id="ahorcado-pierna-derecha"></p>
+                <p id="ahorcado-pierna-izquierda"></p>
+                <p id="ahorcado-cuerpo"></p>
+                <p id="ahorcado-brazo-izquierdo"></p>
+                <p id="ahorcado-brazo-derecho"></p>
+                <p id="plataforma-base"></p>
+                <p id="plataforma-vertical"></p>
+                <p id="plataforma-superior"></p>
+                <p id="plataforma-soga"></p>
+                <p id="ahorcado-cabeza"></p>
+            </div>
+            <div class="letras-correctas">
+                <p id="primera-letra"></p>
+                <p id="segunda-letra"></p>
+                <p id="tercera-letra"></p>
+                <p id="cuarta-letra"></p>
+                <p id="quinta-letra"></p>
+                <p id="sexta-letra"></p>
+                <p id="septima-letra"></p>
+                <p id="octava-letra"></p>
+            </div>
+            <div class="espacios">
+                <p id="primer-espacio"></p>
+                <p id="segundo-espacio"></p>
+                <p id="tercer-espacio"></p>
+                <p id="cuarto-espacio"></p>
+                <p id="quinto-espacio"></p>
+                <p id="sexto-espacio"></p>
+                <p id="septimo-espacio"></p>
+                <p id="octavo-espacio"></p>
+            </div>
+            <div class="letras-usadas">
+                <p id = "letras-usadast"></p>
+            </div>
+            <div class="Botones">
+                <button class="Nuevo-juegob" onclick="nuevojuego()"><p id="Nuevo-juegot">Nuevo Juego</p> </button>
+                <button class="Desistirb" onclick="desistir()"><p id="Desistirt">Desistir</p> </button>
+            </div>
+        </main>
+    </body>
+</html>

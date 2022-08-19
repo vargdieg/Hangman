@@ -1,0 +1,274 @@
+/* Etiquetas usadas en todos los html */
+body{
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    background: #F3F5FC;
+}
+
+.imagen-logo-a{
+    position: absolute;
+    margin: 40px 1325px 936px 84px;
+    
+}
+
+/* Etiquetas usadas en el html ingresopalabras */
+
+#ingresar-palabra{
+    border: none;
+    position: absolute;
+    width: 299px;
+    height: 48px;
+    left: 376px;
+    top: 256px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    color: #0A3871;
+    background: #F3F5FC;
+}
+
+#ingresar-palabra::placeholder {
+    color: #0A3871;
+}
+
+#exclamacion::before{
+    display: block;
+    position: absolute;
+    background: #495057;
+    left: 20px;
+    top: 23px;
+    content: "!";
+    width: 20px;
+    height: 20px;
+    line-height: 22px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    margin: 642px 1048px 340px 356px;
+  }
+
+#advertencia-uso{
+    width: 91px;
+    height: 18px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #495057;
+    opacity: 0.8;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    position: absolute;
+    margin: 667px 949px 339px 400px;
+}
+
+.guardarb{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    width: 332px;
+    height: 67px;
+    background: #0A3871;
+    border-radius: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    position: absolute;
+    margin: 701px 732px 256px 376px;
+    cursor:pointer;
+}
+
+#guardart{
+    width: 284px;
+    height: 19px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.cancelarb{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    width: 332px;
+    height: 67px;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+    position: absolute;
+    margin: 701px 376px 256px 732px;
+    cursor:pointer;
+}
+
+#cancelart{
+    width: 284px;
+    height: 19px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #0A3871;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.solo-guardarb{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    width: 332px;
+    height: 67px;
+    border-radius: 24px;
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+    position: absolute;
+    background: yellowgreen;
+    margin: 821px 376px 256px 376px;
+    cursor:pointer;
+}
+
+#solo-guardart{
+    width: 284px;
+    height: 19px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #570a71;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.eliminarb{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    width: 332px;
+    height: 67px;
+    border-radius: 24px;
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+    position: absolute;
+    background: red;
+    margin: 821px 376px 256px 732px;
+    cursor:pointer;
+}
+
+#eliminart{
+    width: 284px;
+    height: 19px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #d9bb0e;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+@media screen and (max-width:770px) and (min-width: 375px){
+    /* Elementos de la pagina de ingreso palabra */
+    #ingresar-palabra{
+        left: 40px;
+        top: 240px;
+    }
+    #exclamacion::before{
+        margin: 759px 612px 224px 20px;
+      }
+    #advertencia-uso{
+        position: absolute;
+        margin: 784px 613px 223px 64px;
+    }
+    .guardarb{
+        position: absolute;
+        margin: 817px 396px 140px 40px;
+    }
+    .cancelarb{
+        position: absolute;
+        margin: 817px 40px 140px 396px;
+    }
+    .solo-guardarb{
+        position: absolute;
+        margin: 917px 396px 40px 40px;
+    }
+    .eliminarb{
+        position: absolute;
+        margin: 917px 40px 40px 396px;
+    }
+}
+
+@media screen and (max-width:376px){
+    /* Elementos de la pagina de ingreso palabra */
+    header{
+        position: absolute;
+        width: 375px;
+        height: 96px;
+        left: 0px;
+        top: 0px;
+    }
+
+    #ingresar-palabra{
+        width: 343px;
+        left: 16px;
+        top: 152px;
+    }
+    #exclamacion::before{
+        margin: 226px 343px 397px 0px;
+      }
+    #advertencia-uso{
+        position: absolute;
+        margin: 251px 244px 398px 40px;
+    }
+    .guardarb{
+        position: absolute;
+        margin: 285px 16px 315px 16px;
+    }
+    .cancelarb{
+        position: absolute;
+        margin: 376px 16px 224px 16px;
+    }
+    .solo-guardarb{
+        position: absolute;
+        margin: 476px 16px 124px 16px;
+    }
+    .eliminarb{
+        position: absolute;
+        margin: 576px 16px 24px 16px;
+    }
+}

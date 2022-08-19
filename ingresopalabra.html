@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=yes">
+        <title>Ahorcado ingreso palabras</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="ingresarpalabra/styleingresopalabra.css">
+        <script src="ingresarpalabra/ingresopalabra.js"></script>
+    </head>
+
+    <body>
+        <header>
+            <img class="imagen-logo-a" src = "imagenes/a.svg" alt="My Happy SVG"/>
+        </header>
+        <main>
+            <div>
+                <textarea type="text" id="ingresar-palabra" class="input-padron" required placeholder="Ingrese una palabra"></textarea>
+            </div>
+            <div id="exclamacion"></div>
+            <div id>
+                <p id="advertencia-uso">Max. de 8 letras</p>
+            </div>
+            <div>
+                <button class="guardarb" onclick="guardaryComenzar()"><p id="guardart">Guardar y empezar</p></button>
+                <button class="cancelarb" onclick="menuinicial()"><p id="cancelart">Cancelar</p> </button>  
+            </div>
+            <div>
+                <button class="solo-guardarb" onclick="guardarpalabra()"><p id="solo-guardart">Guardar</p></button>
+                <button class="eliminarb" onclick="eliminar()"><p id="eliminart">Eliminar palabra</p> </button>  
+            </div> 
+        </main>
+    </body>
+</html>
