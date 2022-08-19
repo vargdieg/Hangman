@@ -68,7 +68,7 @@ Hay 2 botones que permiten hacer:
 </span>
 </span>
 
-[1]: imagenesDocumentacion/MenuInicial.png
-[2]: imagenesDocumentacion/ListaPalabras.png
-[3]: imagenesDocumentacion/AgregarPalabra.png
-[4]: imagenesDocumentacion/NuevoJuego.png
+[1]: .imagenesDocumentacion/MenuInicial.png
+[2]: .imagenesDocumentacion/ListaPalabras.png
+[3]: .imagenesDocumentacion/AgregarPalabra.png
+[4]: .imagenesDocumentacion/NuevoJuego.png
