@@ -34,7 +34,12 @@ function menuinicial(){
 
 function guardaryComenzar(){
     guardarpalabra();
-    iniciarJuego();
+    cargarpalabras();
+    if(palabras.length > 0){
+        iniciarJuego();
+    }else{
+        alert("No hay palabras para jugar");
+    }
 }
 
 function iniciarJuego(){
@@ -94,7 +99,7 @@ function ValidarPalabra(palabra){
 }
 
 function containsSpecialChars(str) {
-    const specialChars = /[`!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?~]/;
+    const specialChars = /[´`!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?~]/;
     return specialChars.test(str);
 }
 
