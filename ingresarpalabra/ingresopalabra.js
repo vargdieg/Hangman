@@ -74,8 +74,8 @@ function ValidarPalabra(palabra){
         return [false, mensaje];
     }
     for(var index = 0;index<palabra.length;index++){
-        if(palabra[index] =="á" || palabra[index] =="é" || palabra[index] =="í"
-        || palabra[index] =="ó" || palabra[index] =="ú"){
+        if(palabra[index] =="Á" || palabra[index] =="É" || palabra[index] =="Í"
+        || palabra[index] =="Ó" || palabra[index] =="Ú"){
             var mensaje = "La palabra contiene acentos";
             return [false, mensaje];
         }
